@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:sdk-repository xmlns:s="http://schemas.android.com/sdk/android/repo/repository2/04"
+    xmlns:g="http://schemas.android.com/repository/android/generic/02"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <remotePackage path="extras;local;fixture">
+        <type-details xsi:type="g:genericDetailsType"/>
+        <revision><major>1</major></revision>
+        <display-name>Local CLI fixture</display-name>
+        <archives>
+            <archive>
+                <complete>
+                    <size>@SIZE@</size>
+                    <checksum type="sha1">@SHA1@</checksum>
+                    <url>fixture.zip</url>
+                </complete>
+            </archive>
+        </archives>
+    </remotePackage>
+</s:sdk-repository>
