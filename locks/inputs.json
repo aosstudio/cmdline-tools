@@ -1,0 +1,590 @@
+{
+  "version": "24.0",
+  "library_version": "32.5.2",
+  "files": {
+    "FastInfoset-1.2.16.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar",
+      "sha256": "056f3a1e144409f21ed16afc26805f58e9a21f3fce1543c42d400719d250c511",
+      "license": "Apache License, Version 2.0; Eclipse Distribution License - v 1.0",
+      "role": "core-library"
+    },
+    "annotations-23.0.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar",
+      "sha256": "7b0f19724082cbfcbc66e5abea2b9bc92cf08a1ea11e191933ed43801eb3cd05",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "annotations-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/annotations/32.5.2/annotations-32.5.2.jar",
+      "sha256": "c2c8afae90aa72cf1b94e345f793f47e4c46336f1ed5b0503afc61326035163a",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "checker-qual-3.43.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.43.0/checker-qual-3.43.0.jar",
+      "sha256": "3fbc2e98f05854c3df16df9abaa955b91b15b3ecac33623208ed6424640ef0f6",
+      "license": "The MIT License",
+      "role": "core-library"
+    },
+    "common-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/common/32.5.2/common-32.5.2.jar",
+      "sha256": "5c585d32841678980392a05b42e8ffbc0ec26e7892ca212982f9e30f4a07a438",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-resources"
+    },
+    "commons-codec-1.17.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.17.1/commons-codec-1.17.1.jar",
+      "sha256": "f9f6cb103f2ddc3c99a9d80ada2ae7bf0685111fd6bffccb72033d1da4e6ff23",
+      "license": "Apache-2.0",
+      "role": "core-library"
+    },
+    "commons-compress-1.27.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar",
+      "sha256": "293d80f54b536b74095dcd7ea3cf0a29bbfc3402519281332495f4420d370d16",
+      "license": "Apache-2.0",
+      "role": "core-library"
+    },
+    "commons-io-2.16.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar",
+      "sha256": "f41f7baacd716896447ace9758621f62c1c6b0a91d89acee488da26fc477c84f",
+      "license": "Apache-2.0",
+      "role": "core-library"
+    },
+    "commons-lang3-3.16.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.16.0/commons-lang3-3.16.0.jar",
+      "sha256": "08709dd74d602b705ce4017d26544210056a4ba583d5b20c09373406fe7a00f8",
+      "license": "Apache-2.0",
+      "role": "core-library"
+    },
+    "commons-logging-1.2.jar": {
+      "url": "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "dvlib-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/32.5.2/dvlib-32.5.2.jar",
+      "sha256": "ff910a7349bc7f22ed2601ee48ad27a6c5bd27b59f82c4610a12d0a4c468bf45",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "error_prone_annotations-2.36.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar",
+      "sha256": "77440e270b0bc9a249903c5a076c36a722c4886ca4f42675f2903a1c53ed61a5",
+      "license": "Apache 2.0",
+      "role": "core-library"
+    },
+    "failureaccess-1.0.2.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar",
+      "sha256": "8a8f81cf9b359e3f6dfa691a1e776985c061ef2f223c9b2c80753e1b458e8064",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "gson-2.11.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar",
+      "sha256": "57928d6e5a6edeb2abd3770a8f95ba44dce45f3b23b7a9dc2b309c581552a78b",
+      "license": "Apache-2.0",
+      "role": "core-library"
+    },
+    "guava-33.4.0-jre.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.0-jre/guava-33.4.0-jre.jar",
+      "sha256": "b918c98a7e44dbe94ebd9fe3e40cddaadb5a93e6a78eb6008b42df237241e538",
+      "license": "Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "httpclient-4.5.14.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar",
+      "sha256": "c8bc7e1c51a6d4ce72f40d2ebbabf1c4b68bfe76e732104b04381b493478e9d6",
+      "license": "Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "httpcore-4.4.16.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar",
+      "sha256": "6c9b3dd142a09dc468e23ad39aad6f75a0f2b85125104469f026e52a474e464f",
+      "license": "Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "httpmime-4.5.6.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpmime/4.5.6/httpmime-4.5.6.jar",
+      "sha256": "0b2b1102c18d3c7e05a77214b9b7501a6f6056174ae5604e0e256776eda7553e",
+      "license": "Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "istack-commons-runtime-3.0.8.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar",
+      "sha256": "4ffabb06be454a05e4398e20c77fa2b6308d4b88dfbef7ca30a76b5b7d5505ef",
+      "license": "Eclipse Distribution License - v 1.0",
+      "role": "core-library"
+    },
+    "j2objc-annotations-3.0.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar",
+      "sha256": "88241573467ddca44ffd4d74aa04c2bbfd11bf7c17e0c342c94c9de7a70a7c64",
+      "license": "Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "jakarta.activation-api-1.2.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar",
+      "sha256": "8b0a0f52fa8b05c5431921a063ed866efaa41dadf2e3a7ee3e1961f2b0d9645b",
+      "license": "EDL 1.0",
+      "role": "core-library"
+    },
+    "jakarta.xml.bind-api-2.3.2.jar": {
+      "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar",
+      "sha256": "69156304079bdeed9fc0ae3b39389f19b3cc4ba4443bc80508995394ead742ea",
+      "license": "Eclipse Distribution License - v 1.0",
+      "role": "core-library"
+    },
+    "jaxb-runtime-2.3.2.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar",
+      "sha256": "e6e0a1e89fb6ff786279e6a0082d5cef52dc2ebe67053d041800737652b4fd1b",
+      "license": "Eclipse Distribution License - v 1.0",
+      "role": "core-library"
+    },
+    "jimfs-1.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar",
+      "sha256": "c4828e28d7c0a930af9387510b3bada7daa5c04d7c25a75c7b8b081f1c257ddd",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "jna-5.6.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.6.0/jna-5.6.0.jar",
+      "sha256": "5557e235a8aa2f9766d5dc609d67948f2a8832c2d796cea9ef1d6cbe0b3b7eaf",
+      "license": "LGPL, version 2.1; Apache License v2.0",
+      "role": "core-library"
+    },
+    "jna-platform-5.6.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.6.0/jna-platform-5.6.0.jar",
+      "sha256": "9ecea8bf2b1b39963939d18b70464eef60c508fed8820f9dcaba0c35518eabf7",
+      "license": "LGPL, version 2.1; Apache License v2.0",
+      "role": "core-library"
+    },
+    "jsr305-3.0.2.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+      "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "kotlin-stdlib-2.2.10.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.10/kotlin-stdlib-2.2.10.jar",
+      "sha256": "9c67cc79efd6b9215b49d2a4308f5f3433537376c7c88e89bdd6729bd096e61a",
+      "license": "The Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "kotlin-stdlib-jdk7-2.2.10.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/2.2.10/kotlin-stdlib-jdk7-2.2.10.jar",
+      "sha256": "cf95eccc6cc784dff479dee0b8834f3584b93292cc5d91972e82f5d7b9e13e3b",
+      "license": "The Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "kotlin-stdlib-jdk8-2.2.10.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/2.2.10/kotlin-stdlib-jdk8-2.2.10.jar",
+      "sha256": "8974bfdd08b1d81843fe8d11f0729ab6e5b3c1f88d671ebe0c006358129ce149",
+      "license": "The Apache License, Version 2.0",
+      "role": "core-library"
+    },
+    "kotlinx-coroutines-core-jvm-1.9.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.jar",
+      "sha256": "ad89c2892235e670f222d819cb3d81188143cb19a05b59df9889ae4269f5c70a",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "kxml2-2.3.0.jar": {
+      "url": "https://repo.maven.apache.org/maven2/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar",
+      "sha256": "f264dd9f79a1fde10ce5ecc53221eff24be4c9331c830b7d52f2f08a7b633de2",
+      "license": "BSD style; Public Domain",
+      "role": "core-library"
+    },
+    "layoutlib-api-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/32.5.2/layoutlib-api-32.5.2.jar",
+      "sha256": "24d9d0877a956ebd6e586640147bc6bd52ce904f0e6ab740be0899271e354543",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar",
+      "sha256": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "protobuf-java-3.25.5.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.25.5/protobuf-java-3.25.5.jar",
+      "sha256": "8540247fad9e06baefa8fb45eb313802d019f485f14300e0f9d6b556ed88e753",
+      "license": "BSD-3-Clause",
+      "role": "core-library"
+    },
+    "protos-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/32.5.2/protos-32.5.2.jar",
+      "sha256": "14f8d58007454b193ff189f3ac6743373e384db3b32659e9314dd68d92d17876",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "repository-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/repository/32.5.2/repository-32.5.2.jar",
+      "sha256": "fa476fc994561078ca07b2d22d720a98e58a6bbe4fb194e10018fef9f170523f",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-resources"
+    },
+    "sdklib-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/32.5.2/sdklib-32.5.2.jar",
+      "sha256": "49ecc5222ed52e365319135808932d7f279a221904aaec5ccfa75293734872d4",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-resources"
+    },
+    "shared-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/32.5.2/shared-32.5.2.jar",
+      "sha256": "242df9109de08aeb36fbc77ab26db2ee46b9b022ac4ef53f1ab9cb08f7f4178e",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "core-library"
+    },
+    "stax-ex-1.8.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar",
+      "sha256": "20522549056e9e50aa35ef0b445a2e47a53d06be0b0a9467d704e2483ffb049a",
+      "license": "Eclipse Distribution License - v 1.0",
+      "role": "core-library"
+    },
+    "txw2-2.3.2.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar",
+      "sha256": "4a6a9f483388d461b81aa9a28c685b8b74c0597993bf1884b04eddbca95f48fe",
+      "license": "Eclipse Distribution License - v 1.0",
+      "role": "core-library"
+    },
+    "common-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/common/32.5.2/common-32.5.2-sources.jar",
+      "sha256": "f362f65b1c7bd94a09666135ab11f1c8bb1697d40a650841ce88e2c1479f156b",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "repository-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/repository/32.5.2/repository-32.5.2-sources.jar",
+      "sha256": "2bffbbc38feea3ce78f52a45b32b7f90e5b071bcf23dba1559826eee0d85e762",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "sdklib-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/32.5.2/sdklib-32.5.2-sources.jar",
+      "sha256": "4f2c3d5829e9dff1914456c9d60db6adb9cb1455642bac648967af517ceb5137",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "apkanalyzer.tar.gz": {
+      "url": "https://android.googlesource.com/platform/tools/base/+archive/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/apkparser/cli/src/main/java.tar.gz",
+      "sha256": "20f74187beb4760a2df3fac86bcc05fd627bfa17753c34906d6ee5d925cb8a55",
+      "license": "Apache-2.0",
+      "role": "source",
+      "format": "gitiles-tree"
+    },
+    "screenshot2-source.tar.gz": {
+      "url": "https://android.googlesource.com/platform/tools/base/+archive/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/misc/screenshot2/src/main/java.tar.gz",
+      "sha256": "dd5f1ec66bb30b51e7ee1f8c179dbc9267d75485c67434cb7bd5efbe21b67177",
+      "license": "Apache-2.0",
+      "role": "source",
+      "format": "gitiles-tree"
+    },
+    "profgen.tar.gz": {
+      "url": "https://android.googlesource.com/platform/tools/base/+archive/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/profgen/profgen/src/main.tar.gz",
+      "sha256": "6ac3ca2bfaffb699f3163b297278117b38137f90ec82de57901bffcc356b0009",
+      "license": "Apache-2.0",
+      "role": "source",
+      "format": "gitiles-tree"
+    },
+    "profgen-cli.tar.gz": {
+      "url": "https://android.googlesource.com/platform/tools/base/+archive/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/profgen/profgen-cli/src/main.tar.gz",
+      "sha256": "2b74a834477910176e825c21ae636f0a6bfb0da747704c5f3ce4af314cfb84cc",
+      "license": "Apache-2.0",
+      "role": "source",
+      "format": "gitiles-tree"
+    },
+    "resourceshrinker.tar.gz": {
+      "url": "https://android.googlesource.com/platform/tools/base/+archive/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/build-system/shrinker/src/main/java.tar.gz",
+      "sha256": "036a68bf20679840ea7e7feb8e542d53e61f61d2d7a78aef199b9c4ff3956e54",
+      "license": "Apache-2.0",
+      "role": "source",
+      "format": "gitiles-tree"
+    },
+    "apkanalyzer-NOTICE": {
+      "url": "https://android.googlesource.com/platform/tools/base/+/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/apkparser/cli/NOTICE?format=TEXT",
+      "sha256": "6250d3bbdd0432a6eb17ab019d47ec435fde45029acb4259bdde600fb302ae1f",
+      "license": "Apache-2.0",
+      "role": "notice",
+      "format": "gitiles-text"
+    },
+    "screenshot2-NOTICE": {
+      "url": "https://android.googlesource.com/platform/tools/base/+/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/misc/screenshot2/NOTICE?format=TEXT",
+      "sha256": "38751245389e1e23f73e6f5384b5cbe7fa972cc4410c5adc9c04b082a0b9561a",
+      "license": "Apache-2.0",
+      "role": "notice",
+      "format": "gitiles-text"
+    },
+    "resourceshrinker-NOTICE": {
+      "url": "https://android.googlesource.com/platform/tools/base/+/602d2ddc2b0098f62a657af26b90b0ac1034a6f6/build-system/gradle-api/NOTICE?format=TEXT",
+      "sha256": "9ff463305b708a8b546b2100a945334e9cd72df1e5d2bd9389d881d9a922ac2d",
+      "license": "Apache-2.0",
+      "role": "notice",
+      "format": "gitiles-text"
+    },
+    "archive-patcher-source.tar.gz": {
+      "url": "https://codeload.github.com/google/archive-patcher/tar.gz/0bd5dd58858d60a4250c6ec8f606cc1a3db7d1aa",
+      "sha256": "70970723093bb915631e5a172aa0f25be8e9f1bb8ed5fc13c7a23a4c9652a745",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "apkanalyzer-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/apkparser/apkanalyzer/32.5.2/apkanalyzer-32.5.2-sources.jar",
+      "sha256": "7eb097bd718cb483c92fc7741e2ff6eb7ba1217d1d8a38f6a53b9ea1b4307667",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "apkanalyzer-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/apkparser/apkanalyzer/32.5.2/apkanalyzer-32.5.2.jar",
+      "sha256": "9e22ea6bee789e9338427bba874453639642c4c8f71c18ff3c6c7685abb95d54",
+      "license": "Apache-2.0",
+      "role": "resources"
+    },
+    "binary-resources-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/apkparser/binary-resources/32.5.2/binary-resources-32.5.2-sources.jar",
+      "sha256": "5f8079eb2d2535b4d8bdc4782022287b52a40dce852fc942fca2adc12f78ccdc",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "binary-resources-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/apkparser/binary-resources/32.5.2/binary-resources-32.5.2.jar",
+      "sha256": "48476ed8bd85347c92458c501097213ea0331b5a08729ee098ee2b58478b7732",
+      "license": "Apache-2.0",
+      "role": "resources"
+    },
+    "auto-value-1.10.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value/1.10.1/auto-value-1.10.1.jar",
+      "sha256": "ea78010d82efdb2f919b16faed9e6427f07d2998a15c4f619cdc6a6164ecd336",
+      "license": "Apache-2.0",
+      "role": "tool"
+    },
+    "auto-value-annotations-1.10.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/google/auto/value/auto-value-annotations/1.10.1/auto-value-annotations-1.10.1.jar",
+      "sha256": "a4fe0a211925e938a8510d741763ee1171a11bf931f5891ef4d4ee84fca72be2",
+      "license": "Apache-2.0",
+      "role": "analysis-library"
+    },
+    "checker-compat-qual-2.5.5.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar",
+      "sha256": "11d134b245e9cacc474514d2d66b5b8618f8039a1465cdc55bbc0b34e0008b7a",
+      "license": "MIT OR GPL-2.0-only WITH Classpath-exception-2.0",
+      "role": "analysis-library"
+    },
+    "jcommander-1.64.jar": {
+      "url": "https://repo.maven.apache.org/maven2/com/beust/jcommander/1.64/jcommander-1.64.jar",
+      "sha256": "156be736199c990321d9ff77090b199629cfc9865e2d6c13f7cd291bb1641817",
+      "license": "Apache-2.0",
+      "role": "analysis-library"
+    },
+    "kotlinx-cli-jvm-0.3.1.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-cli-jvm/0.3.1/kotlinx-cli-jvm-0.3.1.jar",
+      "sha256": "6c4182fbb93b8ff2399e9449d76f920eca54196c837c806a0f5c8f9adf445a35",
+      "license": "Apache-2.0",
+      "role": "analysis-library"
+    },
+    "gradle-9.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/9.5.2/gradle-9.5.2-sources.jar",
+      "sha256": "9e4ef0e77719f3c6662dada9dffe5170887085a9d39e237eff370dd09cd8efa6",
+      "license": "Apache-2.0",
+      "role": "notice"
+    },
+    "smali-baksmali-3.0.9.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/smali/smali-baksmali/3.0.9/smali-baksmali-3.0.9.jar",
+      "sha256": "e7d0166945565a87f3997d1aea8779202dbb6cb0585a39ee20bab8a2f5ba87f6",
+      "license": "BSD-3-Clause",
+      "role": "analysis-library"
+    },
+    "smali-dexlib2-3.0.9.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/smali/smali-dexlib2/3.0.9/smali-dexlib2-3.0.9.jar",
+      "sha256": "8b547506f62f91d74b70f4beb4989b99e1ff61fc50b2525e9796ca35f0a351dc",
+      "license": "BSD-3-Clause",
+      "role": "analysis-library"
+    },
+    "smali-util-3.0.9.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/smali/smali-util/3.0.9/smali-util-3.0.9.jar",
+      "sha256": "4673762894ba4156081fc5c642f74d6e78aef8b1a9c7702d691e3171d8cc1153",
+      "license": "BSD-3-Clause",
+      "role": "analysis-library"
+    },
+    "asm-9.9.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.9/asm-9.9.jar",
+      "sha256": "03d99a74ad1ee5c71334ef67437f4ef4fe3488caa7c96d8645abc73c8e2017d4",
+      "license": "BSD-3-Clause",
+      "role": "analysis-library"
+    },
+    "asm-analysis-9.9.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar",
+      "sha256": "6a15d28e8bd29ba4fd5bca4baf9b50e8fba2d7b51fbf78cfa0c875a7214c678b",
+      "license": "BSD-3-Clause",
+      "role": "lint-library"
+    },
+    "asm-commons-9.9.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar",
+      "sha256": "db2f6f26150bbe7c126606b4a1151836bcc22a1e05a423b3585698bece995ff8",
+      "license": "BSD-3-Clause",
+      "role": "lint-library"
+    },
+    "asm-tree-9.9.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar",
+      "sha256": "42178f3775c9c63f9e5e1446747d29b4eca4d91bd6e75e5c43cfa372a47d38c6",
+      "license": "BSD-3-Clause",
+      "role": "lint-library"
+    },
+    "builder-model-9.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/9.5.2/builder-model-9.5.2.jar",
+      "sha256": "587c0bf6b28b71b9d84c012f009b709742dc0ec8ffe7477da230e6e4077c53a3",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "lint-library"
+    },
+    "kotlin-reflect-2.2.10.jar": {
+      "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/2.2.10/kotlin-reflect-2.2.10.jar",
+      "sha256": "c48db4f8cd1bfd67f72d59255065fb41bfda43ca2942dac4d9deb897aa126ba4",
+      "license": "The Apache License, Version 2.0",
+      "role": "lint-library"
+    },
+    "manifest-merger-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/32.5.2/manifest-merger-32.5.2.jar",
+      "sha256": "d76a84a56e4dd1e5d29e3862a5a603a8d5b29e0f7f09f8e22ca5ee7811d9515d",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "lint-library"
+    },
+    "tracker-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/32.5.2/tracker-32.5.2.jar",
+      "sha256": "95920c769ad175cd10f534b76e959ce646628ddef4809d151c20fa20bd5a6aea",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "lint-library"
+    },
+    "sdk-common-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/32.5.2/sdk-common-32.5.2.jar",
+      "sha256": "1c31ae4dad5fd22d6cabc938cbd24a4842c133cd2452f9daf8ca32489c909b09",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "analysis-library"
+    },
+    "ddmlib-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/32.5.2/ddmlib-32.5.2.jar",
+      "sha256": "a816d5bb12077fcb320c949cf46956a83e68fbeb915581863b77f0f252271d65",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "analysis-library"
+    },
+    "aapt2-proto-9.5.2-16666295.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/9.5.2-16666295/aapt2-proto-9.5.2-16666295.jar",
+      "sha256": "b1831a9100faeb46aa353bac5b144518baea6eb69162658969e22e629f5f8f54",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "shrinker-library"
+    },
+    "zipflinger-9.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/zipflinger/9.5.2/zipflinger-9.5.2.jar",
+      "sha256": "0a1984d14cc8070f734ddcc5a947f122dfee364cdbe18595afb691aa803890e0",
+      "license": "The Apache Software License, Version 2.0",
+      "role": "analysis-library"
+    },
+    "jopt-simple-4.9.jar": {
+      "url": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar",
+      "sha256": "26c5856e954b5f864db76f13b86919b59c6eecf9fd930b96baa8884626baf2f5",
+      "license": "The MIT License",
+      "role": "analysis-library"
+    },
+    "lint-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/32.5.2/lint-32.5.2-sources.jar",
+      "sha256": "487d4bd39b12db70ed0bdb8a5ce8e4495798f1714961c22e39f6fa761f55f390",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "lint-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/32.5.2/lint-32.5.2.jar",
+      "sha256": "59ee09b4973e80d4e7e26eb80ae88521ca4f0288528a53b28d382e57759df508",
+      "license": "Apache-2.0",
+      "role": "resources"
+    },
+    "lint-api-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/32.5.2/lint-api-32.5.2-sources.jar",
+      "sha256": "644bea26e6209f25f747bfa5fc87b06da503db0348c38e588d961979f9abe20e",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "lint-api-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/32.5.2/lint-api-32.5.2.jar",
+      "sha256": "6b6943f4f6321ad44eb634739f0a67e7991255394d748b4243b999735a29c529",
+      "license": "Apache-2.0",
+      "role": "resources"
+    },
+    "lint-checks-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/32.5.2/lint-checks-32.5.2-sources.jar",
+      "sha256": "2cbb65ed8dc7fb6348e76e68b1dcad5d56e6984e09ebe6765dcd220d7c47117d",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "lint-checks-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/32.5.2/lint-checks-32.5.2.jar",
+      "sha256": "5e864fbe1f29a2fe48258b37f45d5b93af64b55b6de918da77704b4d9732bd44",
+      "license": "Apache-2.0; CC-BY-SA-3.0 for spelling dictionaries",
+      "role": "resources"
+    },
+    "lint-model-32.5.2-sources.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/32.5.2/lint-model-32.5.2-sources.jar",
+      "sha256": "2b71c402a328bc9c7b58aafac862e89d180e47d84a163f63107e8270cbf93009",
+      "license": "Apache-2.0",
+      "role": "source"
+    },
+    "lint-model-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-model/32.5.2/lint-model-32.5.2.jar",
+      "sha256": "81ac1f03f390f0aa8308d389a8bbe4238f9bd843ff705556f68564f6ee257cf1",
+      "license": "Apache-2.0",
+      "role": "resources"
+    },
+    "intellij-core-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/32.5.2/intellij-core-32.5.2.jar",
+      "sha256": "a60df35d8d9104d31790f645dad97105bc9483a136dd535e65ddb6fa4a2535d3",
+      "license": "Apache-2.0",
+      "role": "lint-library"
+    },
+    "kotlin-compiler-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/32.5.2/kotlin-compiler-32.5.2.jar",
+      "sha256": "5cd8d9d8076fa1b811c81b1704c2c5d70bb3d5b0819fe36b78c1d71a78ea8883",
+      "license": "Apache-2.0",
+      "role": "lint-library"
+    },
+    "uast-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/32.5.2/uast-32.5.2.jar",
+      "sha256": "95a19800b0ff36b06c1639f9012a06a07f0b9b329314b26a79b0a0e65c35befc",
+      "license": "Apache-2.0",
+      "role": "lint-library"
+    },
+    "play-sdk-proto-32.5.2.jar": {
+      "url": "https://dl.google.com/dl/android/maven2/com/android/tools/play-sdk-proto/32.5.2/play-sdk-proto-32.5.2.jar",
+      "sha256": "7bbc9b5e308bf01d16984912ed6356e2b7faf688f6c6263adfbb55546706fccb",
+      "license": "Apache-2.0",
+      "role": "lint-library"
+    },
+    "aosstudio-jdk-21.0.13.1-2-linux-x86_64.tar.gz": {
+      "url": "https://github.com/aosstudio/jdk/releases/download/latest/aosstudio-jdk-21.0.13.1-2-linux-x86_64.tar.gz",
+      "sha256": "38ea3237e496258a103aa482a7733a08bef94572473625d47a2f5a9854948840",
+      "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "role": "jdk"
+    },
+    "aosstudio-r8-9.5.28.tar.gz": {
+      "url": "https://github.com/aosstudio/r8/releases/download/latest/aosstudio-r8-9.5.28.tar.gz",
+      "sha256": "761da18e0f2bd337f3d5ea67ab91a8f371b37a669372957ed38cfe017dc02598",
+      "license": "BSD-3-Clause and bundled dependency notices",
+      "role": "r8"
+    },
+    "gradle-9.6.0-bin.zip": {
+      "url": "https://downloads.gradle.org/distributions/gradle-9.6.0-bin.zip",
+      "sha256": "bbaeb2fef8710818cf0e261201dab964c572f92b942812df0c3620d62a529a01",
+      "license": "Apache-2.0 and bundled upstream notices",
+      "role": "tool"
+    },
+    "icc-profiles.tar.gz": {
+      "url": "https://codeload.github.com/saucecontrol/Compact-ICC-Profiles/tar.gz/bdd84663061bc4ae95ca70decff54f581e27f702",
+      "sha256": "9b8f1bbbe85d409fee7e1e25b3dfd78e56463d53780d226c9a37e2aed9fd6fe7",
+      "license": "CC0-1.0",
+      "role": "data"
+    },
+    "aosstudio-build-tools-36.0.0-linux-x86_64.zip": {
+      "url": "https://github.com/aosstudio/build-tools/releases/download/latest/aosstudio-build-tools-36.0.0-linux-x86_64.zip",
+      "sha256": "f4238d09a4680d1f292599f0fd85855614703b1666e438694a2d8ea7366e64e5",
+      "license": "Apache-2.0 and bundled upstream notices",
+      "role": "verification"
+    }
+  }
+}

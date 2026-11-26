@@ -1,0 +1,21 @@
+The package launches the Java SDK Manager directly. Remove the startup notice pointing to a bundled native executable.
+Upstream discussion of the native CLI transition: https://issuetracker.google.com/issues/227219818
+
+--- a/com/android/sdklib/tool/sdkmanager/SdkManagerCli.java
++++ b/com/android/sdklib/tool/sdkmanager/SdkManagerCli.java
+@@ -55,14 +55,5 @@
+     private static void main(@NonNull List<String> args) throws CommandFailedException {
+-        System.err.println(
+-                "WARNING: The SDK Manager CLI tool (sdkmanager) is deprecated. Use Android CLI"
+-                        + " instead.");
+-        System.err.println(
+-                "The 'android' binary can also be found in the cmdline-tools directory, and"
+-                        + " 'android sdk' is the replacement for 'sdkmanager'.");
+-        System.err.println(
+-                "To learn more about the Android CLI and how to use it, see the documentation"
+-                        + " (https://d.android.com/tools/agents/android-cli)\n");
+-
++        // AOSStudio exposes this Java entry point directly.
+         SdkManagerCliSettings settings;
+         try {
+             settings = SdkManagerCliSettings.createSettings(args, FileSystems.getDefault());

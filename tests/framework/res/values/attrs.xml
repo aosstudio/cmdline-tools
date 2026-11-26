@@ -1,0 +1,18 @@
+<resources>
+    <attr name="name" format="string"/>
+    <attr name="resource" format="reference"/>
+    <attr name="hasCode" format="boolean"/>
+    <attr name="minSdkVersion" format="integer"/>
+    <attr name="targetSdkVersion" format="integer"/>
+    <attr name="layout_width" format="dimension|string"/>
+    <attr name="layout_height" format="dimension|string"/>
+    <attr name="text" format="string"/>
+    <public type="attr" name="name" id="0x01010003"/>
+    <public type="attr" name="resource" id="0x01010025"/>
+    <public type="attr" name="hasCode" id="0x0101000c"/>
+    <public type="attr" name="minSdkVersion" id="0x0101020c"/>
+    <public type="attr" name="targetSdkVersion" id="0x01010270"/>
+    <public type="attr" name="layout_width" id="0x010100f4"/>
+    <public type="attr" name="layout_height" id="0x010100f5"/>
+    <public type="attr" name="text" id="0x0101014f"/>
+</resources>
